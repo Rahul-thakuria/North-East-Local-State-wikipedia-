@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ask us</title>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@700&family=Bree+Serif&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./CSS/c.css">
+    
+</head>
+
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="images/seven1.png" alt="logo">
+        </div>
+        <ul>
+            <li class="item"><a href="INDEX.html">Home</a></li>
+            <li class="item"><a href="aboutus.html">About us</a></li>
+            <li class="item"><a href="askus.html">Ask us</a></li>
+            <li class="item"><a href="#contact">States
+                    <select class="drop" onchange="location = this.value;">
+                        <option selected disabled value="States">Select any state</option>
+                        <option value="assam.html">Assam</option>
+                        <option value="underdev.html">Arunachal pradesh</option>
+                        <option value="underdev.html">Manipur</option>
+                        <option value="underdev.html">Meghalaya</option>
+                        <option value="underdev.html">Nagaland</option>
+                        <option value="underdev.html">Tripura</option>
+                        <option value="underdev.html">Mizoram</option>
+                    </select></a></li>
+
+            <li class="item item2"><a href="contactus.html">Contact us</a></li>
+        </ul>
+    </nav>
+    </header>
+    
+    <div class="container">
+
+        <p><i>We would love to answer your questions!!</i></p>
+        <form action="reply.html.html" method="post">
+            <input type="text" name="name" id="name" placeholder="Enter Your Name">
+            <input type="text" name="state" id="state" placeholder="Enter state name you want to know more about">
+            
+            <textarea name="ques" id="ques" cols="30" rows="6" placeholder="Enter Your question here"></textarea>
+            <textarea name="sugg" id="sugg" cols="30" rows="6" placeholder="Enter Your suggestion here"></textarea>
+            <div class="flexask">
+                <input type="submit" class="sbtn" onclick="window.open('reply.html')" value="Send Message">
+                <input type="reset" class="rbtn" value="Reset Form">
+            </div>
+        </form>
+    </div>
+
+    <footer>
+        <div class="center">
+            copyright &copy; www.Sevensisters.com. All rights reserved!
+        </div>
+    </footer>
+
+</body>
+
+</html>

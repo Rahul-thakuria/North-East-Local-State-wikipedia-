@@ -1,0 +1,81 @@
+body{
+	background-color: white;
+	/* background-image: ""; */
+	/* background-image: url("../images/contact us.jpg"); */
+	/* background-size: cover; */
+	/* background-repeat: no-repeat; */
+
+}
+
+.container
+{
+	max-width: 35%;
+	background-color: rgba(225, 212, 212, 0.315);
+	margin: auto;
+	padding: 24px;
+	border-radius: 50px;
+
+}
+
+.container h1, p
+{
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+input, textarea
+{
+	border: 2px solid black;
+	border-radius: 26px;
+	outline: none;
+	padding: 8px;
+	margin: 10px;
+	width: 90%;
+	font-size: 15px;
+
+}
+
+.gen
+{	
+	display: flex;
+	width: 21%;
+	font-size: 15px;
+	align-items: center;
+}
+
+form
+{
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+}
+
+.flex{
+	display: flex;
+}
+
+.sbtn
+{	
+	width: 10vw;
+	height: 8vh;
+	padding: 10px;
+	border: 2px solid black;
+	background-color: lightgray;
+	border-radius: 60px;
+	margin: 10px;
+	font-weight: bolder;
+}
+
+.rbtn
+{
+	width: 10vw;
+	height: 8vh;
+	padding: 10px;
+	border: 2px solid black;
+	background-color: lightgray;
+	border-radius: 60px;
+	margin: 10px;
+	font-weight: bolder;
+}

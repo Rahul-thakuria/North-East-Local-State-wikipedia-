@@ -1,0 +1,77 @@
+.flex{
+    display: flex;
+}
+
+.container {
+    background: #f1f1f1f1;
+  }
+
+  .festival {
+    display: flex;
+    padding: 40px;
+  }
+
+.box{
+  align-items: center;
+  width: 95vw;
+}
+
+.box p{
+  font-family: 'Baloo Bhai 2', cursive;
+  padding: 10px;
+}
+
+.t{
+  text-align: center;
+}
+
+.container h1{
+  text-align: center;
+}
+
+  .f1{
+      text-align: center;
+      font-size: 40px;
+      font-family: 'Baloo Bhai 2', cursive;
+      padding: 5px;
+      text-shadow: 2px 2px 2px black;
+  }
+
+  .left img{
+      width: 450px;
+      height: 200px;
+      padding: 10px;
+  }
+  
+  .right p{
+      font-size: 17px;
+      font-family: 'Baloo Bhai 2', cursive;
+      line-height: 1.8;
+      word-spacing: 3px;
+      color: blueviolet;
+  }
+  
+  .back, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 100%;
+    width: auto;
+    margin-top: -30px;
+    padding: 16px;
+    color: #888;
+    font-weight: bold;
+    font-size: 30px;
+    border-radius: 0 5px 5px 0;
+    user-select: none;
+  }
+
+  .next {
+    position: absolute;
+    right: 0;
+    border-radius: 5px 0 0 5px;
+  }
+  
+  .back:hover, .next:hover {
+    background-color: gray;
+    color: white;
+  }

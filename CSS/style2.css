@@ -1,0 +1,39 @@
+h1 {
+  background-color: lightblue;
+  text-align: top;
+  text-shadow: 2px 3px 10px;
+}
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+  background-image: url("../images/wallpaper.jpg");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+button {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 24px;
+  border: none;
+  background-color: #87a6de;
+  cursor: pointer;
+  padding: 14px 15px;
+  text-decoration: none;
+  margin-left: 590px;
+}
+
+.a1{
+  position: absolute;
+  left: 50%;
+  top: 120%;
+  font-size: 30px;
+  color: black;
+  font-weight: bolder;
+}
