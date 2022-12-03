@@ -1,0 +1,3 @@
+# North-East-Local-State-wikipedia-
+A local wikipedia for the 7 states of North-east A.k.a The Seven Sisters.
+If you got any suggestion for this site then feel free to contact me and suggest the changes...arigatou...
